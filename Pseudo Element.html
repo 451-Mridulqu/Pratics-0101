@@ -5,12 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pseudo Element</title>
      <style>
-        
+
+        h3::after{
+            content: '.pdf';
+            color: blue;
+
+        }
+        h3::before{
+            content: 'start.';
+            color: brown;
+        }
+     /* first-letter */
+
+      P::first-letter{
+         font-size: 3em;
+      }  
+     P::first-line{
+         background-color: teal
+     }
+    /* Selection change Styles*/
+      ::selection{
+         background-color: yellowgreen;
+      }
      </style>
 </head>
 <body>
      <h3>heading-1</h3>
      <h3>heading-2</h3>
      <h3>heading-3</h3>
+
+<main>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima similique quidem architecto, amet quasi rerum. Suscipit sequi inventore nihil amet.</p>
+    <p>Molestias sunt quis nobis dicta? Praesentium sint dolore incidunt perferendis distinctio voluptatibus ratione iure eligendi. Laboriosam dolore perferendis sint itaque.</p>
+    <p>Iure velit, in dolorem cumque culpa, molestias distinctio iusto laborum ut earum ipsam est accusamus mollitia consequuntur iste minima cum.</p> 
+</main>
 </body>
 </html>
