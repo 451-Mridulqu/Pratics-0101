@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+ <style>
+      nav {
+           display: flex;
+           justify-content: space-between;
+      }
+     nav a{
+         text-decoration: none;
+         color: black;
+     }
+
+     .login-form{
+        display: flex;
+        flex-direction: column;
+
+     }
+     .login-form input {
+         margin: 20px;
+     }
+  .mridul:focus{
+         background-color: black
+  }
+        
+  }
+ </style>
+</head>
+<body>
+     <nav>
+        <div class="">
+            <a href="">Home</a>
+        <a href="">Profile</a>
+        <a href="">Blog</a>
+        <a href="">About</a>
+        </div>
+        <a href="">Log in</a>
+     </nav>
+
+    <form class="login-form">
+         <h3>
+            Please Login
+         </h3>
+        <input type="email" name="" class="mridul" placeholder="Your Email" required>
+        <input type="password" name="" class="mridul" placeholder="Your Password" required>
+        <input type="submit" value="Login">
+
+    </form>
+</body>
+</html>
