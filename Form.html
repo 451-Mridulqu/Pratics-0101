@@ -17,15 +17,27 @@
      .login-form{
         display: flex;
         flex-direction: column;
+        width:30%;
+        a
+       /* border: 2px solid red; */
+        
 
      }
      .login-form input {
-         margin: 20px;
+         margin: 5px;
+
      }
   .mridul:focus{
          background-color: black
   }
         
+  .Form-parents{
+        display: flex;
+        justify-content: center;
+         border: 1px solid tomato;
+         align-items: center;
+         height: 90vh;
+         
   }
  </style>
 </head>
@@ -39,7 +51,7 @@
         </div>
         <a href="">Log in</a>
      </nav>
-
+  <div class="Form-parents">
     <form class="login-form">
          <h3>
             Please Login
@@ -49,5 +61,6 @@
         <input type="submit" value="Login">
 
     </form>
+</div>
 </body>
 </html>
