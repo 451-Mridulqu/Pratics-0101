@@ -5,10 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Flex</title>
     <style>
+        .container{
+            display: flex;
+            gap: 20px;
+        }
+
+      .container2{
+           display: flex;
+           flex-wrap: wrap;
+           gap: 10px;
+
+      }
         .box{
             background-color: aquamarine;
-            text-align: center;
+            padding: 20px;
+            border-radius: 50px;
+
         }
+        .Items{ width: 200px;
+                height: 100px;
+                background-color: aqua;
+                border: 2px solid tomato;
+
+        }
+
+    @media screen and (max-width: 576px) {
+            .container{
+                  flex-direction: column-reverse;
+            }
+    }
     </style>
 </head>
 <body>
@@ -21,9 +46,22 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo fugit dolore quas iusto eligendi aperiam neque, est in commodi dolorem reprehenderit ut optio perspiciatis, quisquam, distinctio iste libero at eveniet!</p>
         </div>
         <div class="box">
+
             <h3>Second Box</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nisi culpa similique porro ducimus optio maxime, inventore sed libero, animi voluptates nobis asperiores in eum. Vero consequuntur enim labore aliquid.</p>
         </div>
+    </div>
+    <div class="container2">
+        <div class="Items">Item - 1</div>
+        <div class="Items">Item - 2</div>
+        <div class="Items">Item - 3</div>
+        <div class="Items">Item - 4</div>
+        <div class="Items">Item - 5</div>
+        <div class="Items">Item - 6</div>
+        <div class="Items">Item - 7</div>
+        <div class="Items">Item - 8</div>
+        <div class="Items">Item - 9</div>
+        <div class="Items">Item - 10</div>
     </div>
 </body>
 </html>
