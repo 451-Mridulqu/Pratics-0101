@@ -189,11 +189,12 @@
 
 
 .features {
-   gap: 100px;
+   gap: 140px;
 }
 #feature-section-title{
    border-left: 5px solid #FF900E;
    padding-left: 10px;
+
 }
 
 .feture-card{
@@ -207,6 +208,8 @@
    
   font-weight: 600;
   font-size: 1.25rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
 
 }
 
