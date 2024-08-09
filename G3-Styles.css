@@ -185,6 +185,30 @@
 }
 
 
+/* feature section related styles */
+
+
+.features {
+   gap: 100px;
+}
+#feature-section-title{
+   border-left: 5px solid #FF900E;
+   padding-left: 10px;
+}
+
+.feture-card{
+  padding: 30px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.feture-card .feature-title{
+   
+  font-weight: 600;
+  font-size: 1.25rem;
+
+}
 
 /* Responsive media query */
 @media screen and (max-width: 576px) {
